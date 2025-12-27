@@ -1,0 +1,65 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", sans-serif;
+}
+
+body {
+  background: #77b3f7;
+  color: #333;
+  line-height: 1.6;
+}
+
+header {
+  text-align: center;
+  padding: 2rem;
+  background: #083b71;
+  color: rgb(205, 220, 252);
+}
+
+section {
+  padding: 2rem;
+  max-width: 900px;
+  margin: auto;
+  text-align: center;
+}
+input:checked ~ a img {
+  /*display: none;*/ /*biến mất*/
+  /*visible: hidden;*/ /*ẩn đi nhưng vẫn chiếm chỗ*/
+  /*opacity: 0;*/ /*mờ dần đi*/
+  display: none;
+}
+
+
+h2 {
+  color: #012851;
+  margin-bottom: 1rem;
+}
+img {
+  border-radius: 12px;
+}
+.about {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.project-card {
+  background: white;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  border-radius: 10px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s;
+}
+
+.project-card:hover {
+  transform: translateY(-5px);
+}
+
+footer {
+  text-align: center;
+  padding: 1rem;
+  background: #3fadf7;
+  color: rgb(215, 229, 247);
+}
